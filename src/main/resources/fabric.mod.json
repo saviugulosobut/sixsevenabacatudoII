@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mobileopt",
+  "version": "${version}",
+  "name": "MobileOpt",
+  "description": "Mod client-side ultraleve para celulares fracos.",
+  "authors": ["MobileOpt"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.mobileopt.MobileOptClient"]
+  },
+  "mixins": ["mobileopt.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
